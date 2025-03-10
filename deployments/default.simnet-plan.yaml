@@ -60,6 +60,11 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: artificial-intelligence-representation
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/artificial-intelligence-representation.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: consciousness-qualification-assessment
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/consciousness-qualification-assessment.clar
