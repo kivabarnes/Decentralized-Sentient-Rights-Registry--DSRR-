@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.artificial-intelligence-representation]
+path = 'contracts/artificial-intelligence-representation.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.consciousness-qualification-assessment]
 path = 'contracts/consciousness-qualification-assessment.clar'
 clarity_version = 2
